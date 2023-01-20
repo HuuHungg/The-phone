@@ -1,0 +1,260 @@
+/* Mobile */
+@media (max-width: 46.1875em) {
+
+    .header_content {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .header_content-list {
+      
+        width: 96%;
+        left: 0;
+        height: 0;
+
+    }
+
+    .slider-item {
+        width: 100%;
+        height: 100%;
+        flex: 1 0 100%;
+        position: relative;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    .header_content-title {
+        display: none;
+    }
+    .header_content-text {
+        display: none;
+    }
+
+
+    .header__content-address {
+        width: 94%;
+        display: flex;
+        top: 0;
+        right: 0;
+        left: 0;
+        color: #ffff
+        ;
+
+    }
+
+    .Header__Tour {
+        position: relative;
+        top: -30px;
+        width: 100%;    
+    }
+
+
+    .Header__take-tour {
+        font-size: 2rem;
+        width: 100%;
+        padding: 7px 135px;
+        border: none;
+        background-color: #CBCBCB;
+        color: #000;
+    }
+
+    .Header__take-tour:hover {
+        background-color: #CBCBCB;
+        color: #000;
+        cursor: pointer;
+    }
+
+
+    .img_body {
+        top: 52rem;
+
+    }
+    
+    .body_img {
+        width: 107%;
+        height: 50%;
+        top: 10rem;
+        position: relative;
+        margin-top: 1rem;
+    }
+
+    .who {
+        margin-top: 58rem;
+        width: 100%;
+        background-color: #F1F1F1;
+        position: relative;
+    }
+
+    .body_icon {
+        font-size: 1.8rem;
+        position: absolute;
+        bottom: 12%;
+    }
+
+    .who_img {
+        display: none;
+    }
+
+    .body_title {
+        margin: 40px 20px 0px 20px;
+        position: relative;
+    }
+
+
+    .body_address-content {
+        background-color: #F1F1F1;
+        color: #000;
+        padding: 16px 76px;
+        border: none;
+        font-size: 1.6rem;
+        width: 100%;
+        position: relative;
+    }
+
+    .who_main {
+        width: 346px;
+        position: relative;
+        margin: 26px 20px 0;
+    
+    }
+
+    .directional {
+        display: block;
+    }
+
+    .basic {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+
+    .Premium {
+        margin-top: 10rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .Feature-icon {
+        margin: 0 20px;
+    }
+
+}
+
+/* tablet mobile */
+
+@media (min-width: 46.25em) and (max-width:  63.9375em) {
+    .header_content {
+        position: absolute;
+        display: flex;
+        top: 16%;
+        width: 226px;
+        align-items: center;
+        
+    }
+
+    .header_content-title {
+        font-size: 2.9rem;
+        display: flex;
+        border-bottom: 1px solid #898380;
+        padding: 10px 3px; 
+        line-height: 3.4rem;
+    }
+
+    .header_content-list {
+        height: 216px;
+    }
+    .header_content-text {
+        font-size: 1.8rem;
+        padding: 14px 0px;
+        margin: 10p;
+        margin-left: 3px;
+        justify-content: center;
+        margin-right: 0px;
+        line-height: 1.2;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .header__content-address {
+        background-color: #6B995F;
+        margin: 0px 14px;
+        padding: 10px 55px;
+        font-size: 1.3rem;
+        border-radius: 6px;
+        display: flex;
+        border: none;
+        text-align: center;
+    }
+
+
+    .Header__Tour {
+       
+        top: 25%;
+        border: none;
+        border-radius: 6px;
+    }
+
+
+    .img_body {
+        position: absolute;
+        top: 0;
+        right: 0;
+       
+    }
+    
+    .body_title {
+        margin: 20px 53px 20px 18px;
+        position: relative;
+    }
+
+    .body_content-header {
+        max-width: 350px;   
+        margin: 20px 0;
+    }
+
+    .body_content {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .who_main {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 327px;
+        margin: 73px;
+    }
+
+    .who_title-smail {
+        font-size: 5rem;
+    }
+
+    .who_content {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+
+    .who_img-address {
+        padding: 75px 13px 0 16px;
+    }
+
+    b {
+        font-size: 2.1rem;
+    }
+
+   
+
+    .directional {
+        width: 784px;
+    }
+
+    .basic {
+        margin-right: 10px;
+    }
+
+}  
+    

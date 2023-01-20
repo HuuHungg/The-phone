@@ -1,0 +1,264 @@
+:root {
+    --primary-color: #EE4D2D;
+    --white-color:#fff;
+    --text-color: #666;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;  
+    box-sizing: border-box;
+}
+
+
+
+.header_download-modal  {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    animation: fadeIn ease-in 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.open {
+    display: flex;
+}
+
+.modal-download {
+    background-color: var(--white-color) ;
+    width: 900px;
+    position: relative;
+    padding: 40px;
+}
+
+.moadal-download_header {
+    padding: 20px 0;
+    font-size: 3rem;
+}   
+
+.modal-download_icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px;
+    font-size: 3rem;
+    padding: 6px 20px;
+}
+
+.modal-download_icon:hover {
+    background-color: rgb(213, 210, 210);
+    cursor: pointer;
+}
+
+.modal-download_content {
+    font-size: 2rem;
+    padding: 10px 0;
+
+}   
+
+.modal_download_address {
+    padding: 20px 0;
+    font-size: 2rem;
+}
+
+
+.modal_download-input {
+    width: 98%;
+    height: 4rem;
+    padding-left: 14px;
+    font-size: 2rem;
+}
+
+.modal_button {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.modal_download-button {
+    padding: 10px 0;
+    width: 100%;
+    font-size: 2rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+}
+
+.modal_download-button:hover {
+    background-color: #999;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+
+/* Pricing */
+.Pricing {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+}
+
+.Pricing-title {
+    font-size: 6rem;
+    margin-top: 44px;
+    font-weight: 500;
+    padding: 10px 0 62px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Pricing-content {
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+
+.directional {
+    display: flex;
+    margin: 60px 18px;
+    justify-content: space-between;
+}
+
+.directional {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.basic {
+    width: 800px;
+    height: 523px;
+    margin-right: 2rem;
+
+}
+
+.bssic-title {
+    list-style: none;
+     box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.bssic-title:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+.bassic-title_header {
+    background-color: #616161;
+    height: 98px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.bassic-title_content {
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+
+
+.bassic-title_footer {
+    height: 98px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+}
+
+
+.bassic-title_button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.6rem;
+    height: 98px;
+    align-items: center;
+    width: 100%;
+    border: none;
+}
+
+.bassic-title_download {
+    background-color: black;
+    color: var(--white-color);
+    padding: 14px 28px;
+    border: none;
+}
+
+.bassic-title_download:hover {
+    background-color: #999;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+.Premium {
+    width: 800px;
+    height: 523px;
+    padding: 0;
+}
+
+.bassic-premium {
+    list-style: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.bassic-premium:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.bassic-premium_header {
+    background-color: var(--primary-color);
+    height: 98px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.bassic-premium_content {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.bassic-premium_footer {
+    height: 98px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+}
